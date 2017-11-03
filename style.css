@@ -1,0 +1,34 @@
+.body{
+    overflow-x: hidden;
+}
+.page-section {
+    height:120vh;
+}
+.page-section > .max-height{
+    height:90%;
+    border: solid;
+}
+.max-height .grid {
+    width: 90%;
+    height:100%;
+    border: solid yellow;
+    margin: 0 auto;
+}
+.max-height .grid .grid-item{
+    float: left;
+    width: 25%;
+    height: calc(100% / 3);
+    object-fit: cover;
+    border: solid green;
+
+
+}
+.max-height .grid .grid-width{
+    width: 50%;
+    border: solid blue;
+}
+.max-height .grid .grid-height{
+    height: calc((99.999% / 3) * 2);
+    border: solid red;
+
+}
